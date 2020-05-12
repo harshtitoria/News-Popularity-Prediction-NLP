@@ -79,7 +79,7 @@ from textblob import TextBlob
 
 stopwords=set(stopwords.words('english'))
 
-#Tokenization
+#Tokenization:Tokenization is the process of tokenizing or splitting a string, text into a list of tokens
 def tokenize(txt):
     return word_tokenize(txt)
 

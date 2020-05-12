@@ -1,4 +1,4 @@
-# News_popularity_prediction
+# News-popularity-prediction
 We used BeautifulSoup and Newspaper library for extracting and parsing newspaper articles from "https://www.newindianexpress.com" with the goal to predict their popularity using NLP and Random forest regressor.
 The dataset used for training our model is:
 # UCI Machine Learning Repository: Online News Popularity Data Set.

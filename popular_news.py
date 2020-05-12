@@ -39,7 +39,7 @@ df=pd.DataFrame(dataset)
 # Importing the dataset
 uci_dataset = pd.read_csv('OnlineNewsPopularity.csv', quoting = 3, index_col = False)
 
-#Cleaning the columns headers of whitespaces.
+#Cleaning the columns headers of whitespaces
 arr = list(uci_dataset)
 cleaned_columns = {x:x.lower().strip() for x in arr}
 new_dataset = uci_dataset.rename(columns=cleaned_columns)
